@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2? familia=Montserrat:wght@100&display=swap');
+
+body{
+    background-color:lightgrey;
+    font-family:monospace;
+}
+
+header{
+    width: 100%;
+    height: 20vh;
+    background-image: url(https://www.mundoprimaria.com/wp-content/uploads/2020/08/cuento-pez-oro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-size: 40px;
+    
+}
+
+.principal{
+    text-align: justify;
+    margin: 20px;
+}
+.principal p{
+    margin: 20px;
+}
+
+.principal article{
+    border: 2px dotted lightseagreen;
+    margin: 10px 50px;
+    padding: 20px;
+    text-align: center;
+}
+
+.principal h2{
+    text-align: center;
+    font-size: 30px;
+}
+
+.container-gal{
+    width: 100%;
+    align-content: center;
+    
+}
+
+div .galeria{
+    margin: 10px;
+    box-shadow: 10px 14px 18px black;
+    width: 300px;
+    margin: 0 auto;
+    display: inline-block;
+    margin-left: 15px;
+    float: left;
+}
+
+.galeria img{
+    width: 300px;
+    height: 200px;
+    margin: 10px auto;
+}
+
+.galeria p{
+    text-align:  center;
+    font-size: 20px;
+}
+
+.pie-pagina{
+    width: 100%;
+    background-color: rgb(4, 4, 36);
+    color: white;
+    height: 40px;
+    text-align: center;
+    padding: 10px;
+    font-size: 22px;
+    float: left;
+}
